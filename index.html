@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2273d92091.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#080808] min-h-screen">
+    <header class="bg-[#080808] shadow-lg border-b-2 border-[#048C80]">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+               <img src="img/logo.svg">
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-300 hover:text-white ">Features</a>
+                    <a href="#" class="text-gray-300 hover:text-white ">Pricing</a>
+                    <a href="#" class="text-gray-300 hover:text-white ">Support</a>
+                </div>
+
+                <!-- Desktop Button -->
+                <div class="hidden md:flex items-center">
+                    <button class="bg-[#048C80] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#037A6F] transition-all duration-200 flex items-center space-x-2">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right text-sm"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-300 hover:text-white focus:outline-none focus:text-white">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-[#080808] border-t border-gray-700">
+                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200">Features</a>
+                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200">Pricing</a>
+                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors duration-200">Support</a>
+                    <div class="pt-4 pb-3 border-t border-gray-700">
+                        <button class="w-full bg-[#048C80] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#037A6F] transition-all duration-200 flex items-center justify-center space-x-2">
+                            <span>Get Started</span>
+                            <i class="fas fa-arrow-right text-sm"></i>
+                        </button>
+          </div>
+          </div>
+          </div>
+          </nav>
+          </header>
+
+</body>
+</html>
